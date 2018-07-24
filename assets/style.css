@@ -5,12 +5,27 @@
     color: black
 }
 
-/* .parallax-container {
+.parallax-container {
     height: 350px;
-  } */
+    border: 2px solid black;
+  }
 
   .header {
       color: white;
+  }
+  
+  #navigation {
+      height: 500px;
+      text-align: center;
+      /* color: rgb(95, 95, 95); */
+  }
+
+  #nav-images {
+      border: 2px solid black;
+  }
+
+  #navigation {
+      margin-top: 50px;
   }
 
   
