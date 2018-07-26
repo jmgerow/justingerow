@@ -1,3 +1,13 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
 #logo-container {
     color: black;
 }
@@ -26,6 +36,15 @@
 
   #navigation {
       margin-top: 50px;
+  }
+
+  .brand-logo {
+      margin-left:20px;
+  }
+
+  .nav-link {
+    color: #546e7a;
+    margin-right: 20px;
   }
 
   
