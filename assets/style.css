@@ -2,6 +2,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-family: 'Inconsolata', monospace;
   }
 
   main {
@@ -25,7 +26,7 @@ body {
   }
   
   #navigation {
-      height: 500px;
+      height: 450px;
       text-align: center;
       /* color: rgb(95, 95, 95); */
   }
@@ -39,12 +40,16 @@ body {
   }
 
   .brand-logo {
-      margin-left:20px;
+      /* margin-left:20px; */
   }
 
   .nav-link {
     color: #546e7a;
     margin-right: 20px;
+  }
+
+  #intro {
+      font-size: 20px;
   }
 
   
