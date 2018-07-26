@@ -51,10 +51,7 @@ body {
   #intro {
       font-size: 20px;
   }
-  img {
-    width: 100%;
-    height: auto;
-  }
+
   
   @media screen and (max-width: 640px) {
     .brand-logo {
