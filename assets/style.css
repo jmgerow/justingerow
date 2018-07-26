@@ -39,9 +39,9 @@ body {
       margin-top: 50px;
   }
 
-  .brand-logo {
-      /* margin-left:20px; */
-  }
+  /* .brand-logo {
+    font-size: 100px;
+  } */
 
   .nav-link {
     color: #546e7a;
@@ -51,5 +51,9 @@ body {
   #intro {
       font-size: 20px;
   }
-
   
+  @media screen and (max-width: 640px) {
+    .brand-logo {
+        font-size: 10px;
+    }
+  }
