@@ -28,16 +28,13 @@ body {
   #navigation {
       height: 450px;
       text-align: center;
+      margin-top: 50px;
       /* color: rgb(95, 95, 95); */
   }
 
-  #nav-images {
-      border: 2px solid black;
-  }
-
-  #navigation {
-      margin-top: 50px;
-  }
+  /* #nav-images {
+      /* border: 2px solid black; */
+  /* } 
 
   /* .brand-logo {
     font-size: 100px;
@@ -52,6 +49,31 @@ body {
       font-size: 20px;
   }
 
+  #portfolio {
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+  .portfolio-item {
+    margin-top: 30px;  
+  }  
+
+  #resume {
+      margin-bottom: 500px;
+  }
+
+  #about-me {
+    margin-bottom: 500px;
+  }
+
+  #contact {
+    margin-bottom: 500px;
+  }
+  /* .page-footer { */
+      /* margin-top: 200px; */
+  /* } */
   
   @media screen and (max-width: 640px) {
     .brand-logo {
