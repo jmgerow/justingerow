@@ -45,6 +45,11 @@ body {
     
   }
 
+  a {
+    text-decoration: none;
+    color: #546e7a;
+  }
+
   #intro {
       font-size: 20px;
   }
@@ -64,12 +69,22 @@ body {
       margin-bottom: 500px;
   }
 
-  #about-me {
-    margin-bottom: 500px;
+  #profile-pic {
+      margin-right: 20px;
+      margin-top: 20px;
+  }
+
+  #bio {
+      margin-bottom: 100px;
+  }
+
+  #contact-icons {
+      margin-left: 10px;
+      margin-right: 10px;
   }
 
   #contact {
-    margin-bottom: 500px;
+    margin-bottom: 200px;
   }
   /* .page-footer { */
       /* margin-top: 200px; */

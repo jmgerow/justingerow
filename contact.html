@@ -9,9 +9,10 @@
         crossorigin="anonymous"> -->
     <!--Materialize-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-    <!-- materialize icons     -->
+    <!--icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- google font  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!--google font-->
     <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <!--responsive-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -75,8 +76,32 @@
     </div>
 
     <div class="container">
+        <div class="row center" >
+            <a href="https://github.com/jmgerow" target="_blank"><i class="fab fa-github fa-6x" id="contact-icons"></i></a>
+            <a href="https://www.linkedin.com/in/justingerow/" target="_blank"><i class="fab fa-linkedin fa-6x" id="contact-icons"></i></a>
+            <a href="https://twitter.com/jmgerow" target="_blank"><i class="fab fa-twitter-square fa-6x" id="contact-icons"></i></a>
+        </div>
+
         <div class="row blue-grey-text text-darken-1" id="contact">
-            
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required"></textarea>
+                    </li>
+                </ul>
+                <button class="btn waves-effect waves-light blue-grey" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                </button>
+            </form>
         </div>
 
     </div>
