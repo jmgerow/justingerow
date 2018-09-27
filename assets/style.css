@@ -55,16 +55,6 @@ body {
       font-size: 20px;
   }
 
-  #portfolio {
-    height: 100%;
-    text-align: center;
-    font-size: 28px;
-    margin-bottom: 50px;
-}
-
-  .portfolio-item {
-    margin-top: 30px;  
-  }  
 
   #resume {
       margin-bottom: 500px;
@@ -102,3 +92,66 @@ body {
         height: 10px;
     }
   }
+
+  /* styling for hover over effect */
+
+#portfolio {
+    height: 100%;
+    /* text-align: center; */
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.portfolio-item {
+    margin-top: 30px;
+    font-size: 28px;
+    /* background:blue; */
+}
+
+.image-background {
+    position: relative;
+    height: 180px;
+    width: 280px;
+    background-color: black;
+    /* margin-left: 8%; */
+} 
+
+.nav-images {
+  opacity: 1;
+  /* display: block; */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* height: auto;
+  width: auto; */
+  height: 180px;
+  width: 280px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.portfolio-item:hover .nav-images {
+  opacity: 0.3;
+}
+
+.portfolio-item:hover .middle {
+  opacity: 1;
+}
+
+.middle-text {
+  /* background-color: #4CAF50; */
+  color: white;
+  font-size: 17px;
+  width: 200px;
+  /* padding: 16px; */
+}
