@@ -164,7 +164,7 @@ body {
     }
     .resume {
         width: 330px;
-        height: 1000px; 
+        height: auto;
     }
     #contact-icons {
         margin-left: 1px;
