@@ -90,22 +90,7 @@ body {
       /* margin-top: 200px; */
   /* } */
   
-  @media screen and (max-width: 640px) {
-    .brand-logo {
-        height: 10px;
-    }
-    #intro {
-        font-size: 20px;
-    }
-    .resume {
-        width: 330px;
-        height: 2300px; 
-    }
-    #contact-icons {
-        margin-left: 1px;
-        margin-right: 1px;
-    }
-  }
+ 
 
   /* styling for hover over effect */
 
@@ -169,3 +154,20 @@ body {
   width: 200px;
   /* padding: 16px; */
 }
+
+@media screen and (max-width: 640px) {
+    .brand-logo {
+        height: 10px;
+    }
+    #intro {
+        font-size: 20px;
+    }
+    .resume {
+        width: 330px;
+        height: 1000px; 
+    }
+    #contact-icons {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+  }
