@@ -101,6 +101,10 @@ body {
         width: 330px;
         height: 2300px; 
     }
+    #contact-icons {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
   }
 
   /* styling for hover over effect */
