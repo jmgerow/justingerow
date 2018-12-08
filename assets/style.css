@@ -57,8 +57,10 @@ body {
   }
 
 
-  #resume {
-      margin-bottom: 500px;
+  .resume {
+      margin-bottom: 200px;
+      width: 1000px;
+      height: 2300px;
   }
 
   #profile-pic {
@@ -91,6 +93,13 @@ body {
   @media screen and (max-width: 640px) {
     .brand-logo {
         height: 10px;
+    }
+    #intro {
+        font-size: 20px;
+    }
+    .resume {
+        width: 330px;
+        height: 500px; 
     }
   }
 
